@@ -1,0 +1,78 @@
+/* Thiết kế cho header */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    animation: slide 10s infinite;
+}
+
+/* Hiệu ứng banner động */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+/* Thiết kế phần home */
+.home {
+    padding: 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.home h1 {
+    color: #333;
+}
+
+.home p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Thiết kế phần thời trang thu đông */
+.fall-winter-fashion {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.fall-winter-fashion h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.fashion-item {
+    margin: 20px 0;
+}
+
+.fashion-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fashion-item p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Thiết kế phần footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Hiệu ứng hover cho các liên kết và nút bấm */
+a:hover, button:hover {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
